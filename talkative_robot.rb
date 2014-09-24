@@ -39,16 +39,16 @@ end
 
 a = 5
 
-# case
-# when a > 5
-# 	puts "it's greater than 5"
-# when a < 5
-# 	puts "it's less than 5"
-# when a == 5
-# 	puts "it's 5!"
-# else
-# 	puts "it's not a number"
-# end
+case a
+when a > 5
+	puts "it's greater than 5"
+when a < 5
+	puts "it's less than 5"
+when a == 5
+	puts "it's 5!"
+else
+	puts "it's not a number"
+end
 
 case a
 when 1..5 # a == 1   a == 2   a == 3
@@ -60,3 +60,4 @@ when String  # a.class == String
 else
   puts "You gave me #{a} -- I have no idea what to do with that."
 end
+
